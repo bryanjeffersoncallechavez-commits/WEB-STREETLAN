@@ -1,0 +1,201 @@
+.seccion1 {
+    width: 100%;
+    background: #000000;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 12px 0;
+}
+
+.top-encabezado-contenido {
+    display: inline-block;
+    animation: mover 20s linear infinite;
+}
+
+.top-encabezado-contenido span {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
+.seccion2 {
+    background: white;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: black;
+}
+
+
+.logo {
+    margin: 0;
+    display: inline-block;
+
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+@keyframes girar {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(180deg);
+    }
+}
+
+.iconos i:hover {
+    transform: scale(1.2);
+    opacity: 0.9;
+}
+
+.iconos {
+    display: inline-flex;
+    gap: 20px;
+    font-size: 20px;
+    color: #000000;
+}
+
+
+
+.logo img {
+    animation: girar 5s linear infinite;
+}
+
+@keyframes girar {
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.seccion3 {
+    background-color: rgb(255, 255, 255);
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: serif;
+}
+
+.titulo1,
+.titulo2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.precio-producto {
+    text-align: center;
+}
+
+/* ENCABEZADO 4 */
+.seccion4 {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.contenedor-imagen-prod1,
+.contenedor-imagen-prod2 {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    height: 600px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.contenedor-imagen-prod1 .img-base,
+.contenedor-imagen-prod2 .img-base,
+.contenedor-imagen-prod1 .img-hover,
+.contenedor-imagen-prod2 .img-hover {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.5s ease;
+}
+
+.contenedor-imagen-prod1 .img-hover,
+.contenedor-imagen-prod2 .img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.contenedor-imagen-prod1:hover .img-hover,
+.contenedor-imagen-prod2:hover .img-hover {
+    opacity: 1;
+}
+
+.seccion5 {
+    background-color: rgb(255, 255, 255);
+}
+
+.linea {
+    width: 100%;
+    overflow: hidden;
+}
+
+.linea-contenido {
+    display: inline-block;
+    gap: 50px;
+}
+
+.linea-contenido span {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+@keyframes deslizar {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.info-producto {
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.precio-producto {
+    font-weight: 600;
+    margin: 0;
+    font-size: 16px;
+    color: #000;
+}

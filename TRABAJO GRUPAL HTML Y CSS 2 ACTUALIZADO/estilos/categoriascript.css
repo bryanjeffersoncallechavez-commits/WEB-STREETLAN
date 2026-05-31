@@ -1,0 +1,99 @@
+.menu-categorías {
+    position: fixed;
+    left: -290px;
+    top: 0;
+    width: 290px;
+    height: 100%;
+    background: white;
+    transition: left 0.3s ease;
+
+}
+
+.menu-categorías.mostrar {
+    left: 0;
+}
+
+.toggle-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #131415;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+}
+
+.toggle-button h2 {
+    font-size: 20px;
+    display: flex;
+}
+
+
+.close-button {
+    cursor: pointer;
+    margin-left: 45px;
+    background-color: #131415;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 0px 20px;
+
+
+}
+
+.close-button {
+    background-color: #050404;
+}
+
+.java1 {
+    margin-top: 10px;
+    display: flex;
+    -webkit-box-shadow: 1px 1px 8px 1px #3b3939;
+    box-shadow: 1px 1px 8px 1px #dfdede;
+    border-radius: 5px;
+}
+
+.java1 h3 {
+    margin-left: 10px;
+}
+
+.divididos .segundo {
+
+    border-radius: 5px;
+    font-size: 17px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-left: 5px;
+    background-color: white;
+
+}
+
+.muestra {
+    background-color: #0f0e0e;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+.divididos a {
+    margin-left: 20px;
+
+}
+
+.divididos :hover .segundo {
+
+    background-color: #eceaea;
+    color: rgb(51, 150, 46);
+}
+
+.segundo a {
+    text-decoration: none;
+    color: #0f0e0e;
+}
+
+
+
+.segundo :hover a {
+    font-weight: bold;
+}

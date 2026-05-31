@@ -1,0 +1,139 @@
+.ancho {
+    width: 70%;
+    padding-right: 100px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    border-radius: 8px;
+    border-color: 200px solid blue;
+
+}
+
+.boton {
+    padding-bottom: 0px;
+    padding-top: 5px;
+    border-radius: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: white;
+    margin-left: 10px;
+
+}
+
+.adorno img {
+    width: 170px;
+    float: left;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 6px solid white;
+}
+
+.morado {
+    background-color: rgb(146, 157, 157);
+    border-radius: 10px;
+}
+
+.rojo {
+    background-color: rgb(131, 20, 13);
+    border-radius: 10px;
+}
+
+.rojo h1 {
+    color: rgb(184, 184, 218);
+    margin-top: 60px;
+}
+
+.caja2 h2 {
+    margin-top: 50px;
+}
+
+.subtitulos h3 {
+    border: 1px solid rgb(12, 12, 12);
+    display: inline-block;
+    margin-left: 30px;
+    text-align: center;
+    border-radius: 100px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.subtitulos {
+    display: flex;
+    justify-content: center;
+
+}
+
+.subtitulos h3:hover {
+    transform: scale(1.02);
+    border: 2px solid black;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+.diseño {
+    background-color: aqua;
+}
+
+.colorido h2 {
+    background-color: rgb(143, 23, 45);
+    margin-right: 19px;
+}
+
+.colorido h2 {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.colorido i {
+    margin-right: 15px;
+}
+
+.colorido .precios {
+    display: flex;
+}
+
+.colorido .nuevojs :hover {
+    background-color: rgb(222, 229, 225);
+    padding-bottom: -10px;
+    border-radius: 5px;
+
+}
+
+.colorido .nuevojs {
+    background-color: white;
+    margin-top: -15px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.colorido .descuento {
+
+    margin-left: 10px;
+    border: 2px solid rgb(137, 20, 41);
+    color: rgb(231, 52, 85);
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.colorido h3 {
+
+    color: rgb(231, 52, 85);
+    margin-left: 10px;
+}
+
+.colorido p {
+    margin-left: 20px;
+}
+
+img {
+    margin-top: 15px;
+}

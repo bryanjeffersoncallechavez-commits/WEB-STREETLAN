@@ -1,0 +1,65 @@
+.emparejar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(45, 46, 48);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.emparejar h2 {
+    margin-right: 30px;
+}
+
+.emparejar .marca {
+    padding-top: 10px;
+}
+
+.emparejar .mover {
+    margin-right: 30px;
+    padding-top: 10px;
+}
+
+
+.nuevocolor h2 {
+    background-color: rgb(45, 46, 48);
+    margin-right: 96px;
+}
+
+.nuevocolor h2 {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.nuevocolor i {
+    margin-right: 15px;
+}
+
+.nuevocolor .precios {
+    display: flex;
+}
+
+.nuevocolor .descuento {
+
+    margin-left: 50px;
+    border: 2px solid rgb(45, 46, 48);
+    color: rgb(45, 46, 48);
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.nuevocolor h3 {
+
+    color: rgb(45, 46, 48);
+}
+
+.nuevocolor p {
+    margin-left: 20px;
+}
+
+.nuevocolor {
+    margin-top: 30px;
+}
